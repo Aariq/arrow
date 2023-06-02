@@ -25,7 +25,7 @@
 #' which is the Apache Arrow IPC file format.
 #' The default version is V2.
 #' V1 files are distinct from Arrow IPC files and lack many feathures,
-#' such as the ability to store all Arrow data tyeps, and compression support.
+#' such as the ability to store all Arrow data types, and compression support.
 #' [write_ipc_file()] can only write V2 files.
 #'
 #' @param x `data.frame`, [RecordBatch], or [Table]
